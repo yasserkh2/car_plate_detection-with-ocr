@@ -24,7 +24,7 @@ git clone - 'https://github.com/yasserkh2/car_plate_detection-with-ocr'
 ---
 # Model
 This is the Pre-trained CNN Model [VGG-16] used to detect the license plate ,<br>
-And 'easyocr'recognize the characters on the license plate and convert them into machine-readable text.<br>
+opencv techniques and  'easyocr' recognize the characters on the license plate and convert them into machine-readable text.<br>
 [Take a peek and see what we've done](https://drive.google.com/drive/folders/1dxh9T0tlb6gyFb-euP2FWn4-J082ac4S)
 
 ---
@@ -32,7 +32,9 @@ And 'easyocr'recognize the characters on the license plate and convert them into
 
 Using `Flask` a modern web framework for building APIs in Python, to implement the real-time processing and user interface.<br>
 We utilized this framework to implement the real-time processing and user interface, to display the image and first recognize the image is car or not and if the car the will extract the text from the license plate.<br>
--- 'https://drive.google.com/file/d/1WuuPymvLY7R5ACUYWnFOLXF2FcuFel2F/view' The video explains the step-by-step process of deploying the system, including how to display the image and how to first recognize whether the image is a car or not.<br>
+
+-- 'https://drive.google.com/file/d/1WuuPymvLY7R5ACUYWnFOLXF2FcuFel2F/view' <br>
+The video explains the step-by-step process of deploying the system, including how to display the image and how to first recognize whether the image is a car or not.<br>
 Additionally, the video shows how the system can extract the text from the license plate if the image is of a car.<br>
 
 ---
